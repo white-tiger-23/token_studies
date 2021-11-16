@@ -1,0 +1,12 @@
+[programs.localnet]
+token_studies = "6Txq6B3otMq2dg3Z7RA8ewqayV795CRSeCujq6JrmdSg"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "localnet"
+wallet = "/Users/vivek/.config/solana/id.json"
+
+[scripts]
+test = "mocha -t 1000000 tests/"
